@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepositoryPattern.Entities
+namespace RepositoryPattern.Persistences.Entities
 {
     public class Person
     {

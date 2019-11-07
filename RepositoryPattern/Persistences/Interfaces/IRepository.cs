@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepositoryPattern.Interfaces
+namespace RepositoryPattern.Persistences.Interfaces
 {
     /// <summary>
     /// データのアクセス処理を抽象化するためのインターフェース
@@ -16,7 +16,7 @@ namespace RepositoryPattern.Interfaces
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        T Get(int id);
+        T Get(string id);
 
         /// <summary>
         /// 全データ取得
